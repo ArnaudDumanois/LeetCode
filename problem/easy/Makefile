@@ -11,10 +11,11 @@ EXEC = $(SRC:.cpp=)
 all: $(EXEC) clean
 
 %: %.o
-	$(CC) $(CFLAGS) $< -o $@
+	$(CC) $(CFLAGS) $< -o output/$@
 
 %.o: %.cpp
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
 	rm -f $(OBJ)
+	rm -f $(EXEC)
