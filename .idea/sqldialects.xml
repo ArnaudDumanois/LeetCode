@@ -3,6 +3,7 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/problem/sql/CombineTwoTable.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/problem/sql/CustomersWhoNeverOrder.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/problem/sql/DeleteDuplicateEmails.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/problem/sql/DuplicateEmails.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/problem/sql/EarningMoreThanTheirManager.sql" dialect="GenericSQL" />
   </component>
