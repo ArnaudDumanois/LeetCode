@@ -14,5 +14,4 @@ bool isPowerOfThree(int n){
     } else {
         return isPowerOfThree(n / 3);
     }
-
 }
